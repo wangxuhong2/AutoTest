@@ -1,0 +1,23 @@
+[
+  {
+    "description": "重定向到百度",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "从定向到自己的",
+    "request": {
+      "uri": "/redirect/topath"
+    },
+    "redirectTo": "/redirect/new"
+  },
+  {
+    "description": "被重定向",
+    "request": {
+      "uri": "/redirect/new"
+    },
+    "redirectTo": "http://www.sougou.com"
+  }
+]
